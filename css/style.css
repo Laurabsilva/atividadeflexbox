@@ -6,7 +6,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #d7e195;
+    background-color: rgb(162, 224, 253);
     padding: 20px;
 }
 span {
@@ -15,23 +15,24 @@ span {
     font-size: 13px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 5px;
+    color: #99332E;
 }
 
 header {
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #2f377a;
+    background-color: #e63946 ;
     color: rgb(255, 255, 255);
     padding: 20px;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 18px;
+    border-radius: 10px;
 }
 
 .nome span {
-    color:#d7e195;
+    color:#f3fca5;
     margin-top: 8px;
 }
 
@@ -123,15 +124,17 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.rodape {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2f377a;
+footer {
+    text-align: center;
+    background-color: #e63946;
     color: white;
     padding: 20px;
     margin-top: 20px;
-    border-radius: 18px;
+    border-radius: 10px;
     font-size: small;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#atividade {
+    margin-top: 20px;
 }
